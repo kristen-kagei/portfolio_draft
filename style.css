@@ -1,0 +1,50 @@
+@font-face {
+    font-family: pierSans; 
+    src: url('./PierSans/PierSans-Light.otf') format('opentype');
+}
+* {
+    outline: solid palevioletred 1px;
+    height: auto; 
+    width: auto;
+}
+#header {
+    text-align: center; 
+}
+h1 {
+    font-family: pierSans; 
+    color: rgb(218, 231, 219);
+    letter-spacing: 2px;
+    font-size: 100px;
+    margin: 0;
+    font-weight: lighter;
+}
+h5 {
+    font-family: pierSans; 
+    color: rgb(218, 231, 219);
+    letter-spacing: 6px;
+    font-size: 30px;
+    margin: 0;
+    font-weight: lighter;
+}
+html {
+    background-color: #C8C4BE transparent;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+#navbar {
+    text-align: center;
+    font-family: pierSans;
+    letter-spacing: 4px;
+    margin: 0;
+    color: rgb(218, 231, 219);
+    word-spacing: 20px;
+}
+#navbar ul{
+    list-style-type: none; 
+    padding: 0;
+}
+
+#navbar ul li{
+    display: inline-block
+}
